@@ -335,7 +335,22 @@ main {
     top: 62px;
     z-index: 1;
 }
+
 /*--------- Address-bar ----------*/
+main>.container>div.Address-bar {
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+main>.container>div.Address-bar>h2 {
+    display: inline;
+    font-weight: 400;
+    color: #aeb9c4;
+}
+
+main>.container>div.Address-bar>h2:nth-of-type(2) {
+    color: #5A6B7E;
+}
 
 /*--------- Profile-cover ---------*/
 
