@@ -50,6 +50,11 @@ ul {
     background-color: #5A8DEE;
     padding: 7px 25px;
     fill: white;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 1px 5px 2px #e3e4e4;
 }
 
 .button-connected * {
@@ -365,7 +370,7 @@ main {
 
 /*--------- Address-bar ----------*/
 main>.container>div.Address-bar {
-    padding: 30px;
+    padding:25px 30px 30px;
     box-sizing: border-box;
 }
 
@@ -470,31 +475,42 @@ main div.Profile-cover>div.Profile .information>div>span>i {
 
 /* box-button */
 main>.container>div.Profile-cover>div.Profile .box-button {
-    height:50px;
+    height: 50px;
     margin: 15px 160px 0px 15px;
     padding-top: 2px;
     box-sizing: border-box;
     text-align: left;
 }
 
-
 /*--------- Menu-sections ---------*/
-.bottuns {
-    
-    margin: 0 auto;
+.Menu-sections {
+    display: flex;
+    padding: 25px 30px;
+    box-sizing: border-box;
+    margin: 0;
 }
-.bottuns a{
-    padding: 10px 15px;
+
+.Menu-sections a {
+    padding: 5px 20px;
+    box-sizing: border-box;
     border-radius: 4px;
-    background-color: #5a8dee;; 
-    color: white;
-    text-decoration: none;
-    vertical-align: middle;
-    margin-left: -4px;
+    color: #516377;
 }
-.bottuns a svg{
+
+.Menu-sections a * {
+    vertical-align: middle;
+}
+
+.Menu-sections a svg {
     margin-left: 5px;
-   
+}
+
+a.Menu-sections-button {
+    color: white;
+    fill: white;
+    font-size: 16px;
+    background-color: #5A8DEE;
+    box-shadow: 0 1px 5px 2px #cecece;
 }
 
 /*--------- container-cards ---------*/
