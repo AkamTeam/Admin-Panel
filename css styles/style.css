@@ -479,6 +479,23 @@ main>.container>div.Profile-cover>div.Profile .box-button {
 
 
 /*--------- Menu-sections ---------*/
+.bottuns {
+    
+    margin: 0 auto;
+}
+.bottuns a{
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #5a8dee;; 
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: -4px;
+}
+.bottuns a svg{
+    margin-left: 5px;
+   
+}
 
 /*--------- container-cards ---------*/
 
