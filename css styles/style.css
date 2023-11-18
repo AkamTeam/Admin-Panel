@@ -371,6 +371,9 @@ aside .list>ul>li a>p {
 }
 
 /*------------------------- main --------------------------*/
+.container{
+    height: 1700px;
+}
 main {
     position: absolute;
     right: 263px;
@@ -544,14 +547,84 @@ main .Main-box-1 , .Main-box-2{
 
     
 }
-/* About-card */
+
+.box-1{
+    width: 400px;
+    margin-left: 600px;
+    height: 550px;
+    background-color:white;
+}
+.main-box-2{
+    width: 26%;
+    margin: 0 auto;
+}
+.p{
+   font-size: 14px;
+}
+.box-1>p {
+    margin-right: 10px;
+}
+.box-1 p{
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: sub;
+}
+.p{
+    color: rgb(102, 100, 100);
+}
+.box-2{
+    background-color: rgb(255, 255, 255);
+    margin-top: 35px;
+    width: 100%;
+}
+
+.ab-1  *{
+ display: inline-block;
+ vertical-align: middle;
+}
+.ab-1 a{
+    vertical-align: middle;
+}
+
+.langouge a ,svg , p{
+    vertical-align: middle;
+    margin-top: 3px ;
+    margin-right: 8px;
+    
+}
+.main-box-1 a {
+    text-decoration: none;
+    color:rgb(142, 142, 142);
+    font-weight: 600;
+    vertical-align: middle;
+   
+}
+.main-box-1 a *{
+    vertical-align: middle;
+}
+.main-box-1 p{
+    color: rgb(97, 96, 96);
+}
+.teams a {
+    display: block;
+}
+.teams p {
+    color:rgb(142, 142, 142);
+    display: inline-block
+}
+.teams svg{
+    fill: blue;
+    width: 30px;
+}
+
 
 /* Overview-card */
 
-/*----- Main-box-2 -----*/
 .Main-box-2{
     flex-grow: 2.8;
 }
+
+
 /* ActivityTimeline-card */
 
 /* connections-card */
@@ -559,11 +632,122 @@ main .Main-box-1 , .Main-box-2{
 /* teams-card */
 
 /* projects-card */
+img{
+    border-radius: 50%;
+    width: 40px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
 
+.box-item3{
+    position: relative;
+    width: 614.328px;
+    height: 599.844px;
+    background-color:#ffffff ;
+    border-radius: 5px;
+    box-shadow: 0 2px 14px rgba(38, 60, 85, 0.16);
+    flex: 0 auto;
+  margin-top: -566px;
+    margin-right: 400px;
+}
+.box-body{
+    padding:22px ;
+}
+.icone-box{
+    float: left;
+    margin-top: 2px;
+    cursor: pointer;
+ }
+ .t-b-3{
+    text-align: right;
+    display: inline-block;
+    cursor: pointer;
+    }
+    .t-b-3>img{
+        border-radius: 50%;
+        width: 20px;
+        display: inline-block;
+        margin-top: -30px;
+        vertical-align: middle;
+        
+    }
+    .t-b-3>h5{
+    font-family: inherit;
+    color: rgb(103, 119, 136);
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-right: 10px;
+    }
+    p{
+        font-family: inherit;
+    color: rgb(103, 119, 136);
+    font-size: 1rem;
+    font-weight: 1000;
+    display: inline-block;
+    }
+    .p-1{
+        font-family: inherit;
+    color: rgb(144, 152, 160);
+    font-size: 1rem;
+    font-weight: 1000;
+    margin-top: -15px;
+    }
+    .p-2{
+        font-family: inherit;
+    color: rgb(103, 119, 136);
+    font-size: 1rem;
+    font-weight: 1000;
+    display: inline-block;
+    margin-top: -10px;
+    vertical-align: middle;
+    margin-right: 10px;
+    }
+    .p-3{
+        font-family: inherit;
+    color: rgb(144, 152, 160);
+    font-size: 1rem;
+    font-weight: 1000;
+    display: inline-block;
+    margin-top: -10px;
+    vertical-align: middle;
+    margin-right: 50px;
+    }
+    .img-text{
+        padding: 10px;
+    }
+    .p-4{
+        font-family: inherit;
+    color: rgb(166, 170, 175);
+    font-size: 1rem;
+    font-weight: 1000;
+    display: inline-block;
+    float: left;
+    }
+    .img-main-text3{
+        width: 20px;
+        margin-right: 15px;
+    }
+    .img2-main-text3{
+        width: 25px;
+        cursor: pointer;
+    }
+    .p-5{
+        cursor: pointer;
+        margin-right: 8px;
+    }
+    .img3-main-text3{
+        width: 25px;
+        cursor: pointer;
+        margin-right: 25px;
+    }
 /*------------------------- footer -------------------------*/
 
 .footer {
-    top: 100%;
+   margin-top: 1700px;
     left: 0;
     right: 0;
     display: flex;
@@ -571,27 +755,32 @@ main .Main-box-1 , .Main-box-2{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 14px;
+ 
     padding: 0 20px;
     box-sizing: border-box;
+    
 }
 
 /* ---footer-left */
+.footer-left{
+margin-right: 261px;
+}
 .footer-left>a {
     color: gray;
-    font-size: 14px;
+    font-size: 17px;
     padding: 0px 10px;
+    
 }
 
 /* -----footer-right--- */
 .footer-right>p {
     color: #677788;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .footer-right>p>a {
     color: #677788;
-    font-size: 14px;
+    font-size: 18px;
     margin: 2px;
     cursor: pointer;
 }
