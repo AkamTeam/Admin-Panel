@@ -501,10 +501,74 @@ main>.container>div.Profile-cover>div.Profile .box-button {
 
 /*----- Main-box-1 -----*/
 
-/* About-card */
+.box-1{
+    width: 400px;
+    margin: 0 auto;
+    height: 550px;
+    background-color: rgb(228, 228, 228);
+}
+.main-box-2{
+    width: 26%;
+    margin: 0 auto;
+}
+.p{
+   font-size: 14px;
+}
+.box-1>p {
+    margin-right: 10px;
+}
+.box-1 p{
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: sub;
+}
+.p{
+    color: rgb(39, 39, 39);
+}
+.box-2{
+    background-color: rgb(228, 228, 228);
+    margin-top: 85px;
+    width: 100%;
+}
+.box-2 svg {
+   
+}
+.ab-1  *{
+ display: inline-block;
+ vertical-align: middle;
+}
+.ab-1 a{
+    vertical-align: middle;
+}
+.langouge a ,svg , p{
+    vertical-align: middle;
+    margin-top: 3px ;
+    margin-right: 8px;
+}
+.main-box-1 a {
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    vertical-align: middle;
+   
+}
 
-/* Overview-card */
-
+.main-box-1 a *{
+    vertical-align: middle;
+}
+.main-box-1 p{
+    color: rgb(58, 58, 58);
+}
+.teams a {
+    display: block;
+}
+.teams p {
+    display: inline-block
+}
+.teams svg{
+    fill: blue;
+    width: 30px;
+}
 /*----- Main-box-2 -----*/
 
 /* ActivityTimeline-card */
