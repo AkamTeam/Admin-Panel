@@ -6,19 +6,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- links -->
-    <link rel="stylesheet" href="css styles/style.css">
+    <link rel="stylesheet" href="../css styles/style.css">
     <!-- icons -->
-    <link rel="stylesheet" href="css styles/icon-list.css">
-    <!-- Projects section -->
-    <link rel="stylesheet" href="css styles/Projects-section.css">
+    <link rel="stylesheet" href="../css styles/icon-list.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <title>Projects Section</title>
+    <!-- Projects section -->
+    <link rel="stylesheet" href="../css styles/Projects-section.css">
+
+    <title>Projects section</title>
 </head>
 
 <body>
     <!------------------------- header ------------------------->
     <header>
-
+        <!-- search-box -->
+        <div class="search-box">
+            <a href="#">
+                <i class="material-symbols-outlined"></i>
+                <!-- جستجو (ctrl+/) -->
+            </a>
+        </div>
+        <!-- icons-menu -->
+        <div class="icons-menu">
+            <ul>
+                <li><img src="/image/ir.svg" alt=""></li>
+                <li><i class="material-symbols-outlined"></i></li>
+                <li><i class="material-symbols-outlined"></i></li>
+                <li><i class="material-symbols-outlined"></i></li>
+            </ul>
+            <div>
+                <img src="/image/1.png" alt="">
+            </div>
+        </div>
     </header>
     <!------------------------- aside ------------------------->
     <aside>
@@ -58,13 +79,17 @@
                 </svg>
                 <span>فرست</span>
             </a>
-            <input type="radio">
+            <svg viewBox="0 -960 960 960" width="22" fill="#5A8DEE">
+                <path
+                    d="M480-280q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680q-83 0-141.5 58.5T280-480q0 83 58.5 141.5T480-280Zm0 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+            </svg>
         </div>
         <!-- list -->
         <div class="list">
             <ul>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">home</span>
                         <p class="submenu">داشبوردها</p>
                     </a>
                     <ul>
@@ -74,6 +99,7 @@
                 </li>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">space_dashboard</span>
                         <p class="submenu">طرح ها</p>
                     </a>
                     <ul>
@@ -91,12 +117,33 @@
             </ul>
             <h6>برنامه ها و صفحات</h6>
             <ul>
-                <li><a href="#">ایمیل</a></li>
-                <li><a href="#">گفتگو</a></li>
-                <li><a href="#">تقویم</a></li>
-                <li><a href="#">تخته وظایف</a></li>
+                <li class="NOsubmenu">
+                    <a href="#">
+                        <span class="material-symbols-outlined">mail</span>
+                        ایمیل
+                    </a>
+                </li>
+                <li class="NOsubmenu">
+                    <a href="#">
+                        <span class="material-symbols-outlined">forum</span>
+                        گفتگو
+                    </a>
+                </li>
+                <li class="NOsubmenu">
+                    <a href="#">
+                        <span class="material-symbols-outlined">Calendar_month</span>
+                        تقویم
+                    </a>
+                </li>
+                <li class="NOsubmenu">
+                    <a href="#">
+                        <span class="material-symbols-outlined">Grid_On</span>
+                        تخته وظایف
+                    </a>
+                </li>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">book</span>
                         <p class="submenu">صورتحساب</p>
                     </a>
                     <ul>
@@ -108,6 +155,7 @@
                 </li>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">person</span>
                         <p class="submenu">کاربران</p>
                     </a>
                     <ul>
@@ -128,6 +176,7 @@
                 </li>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">verified_user</span>
                         <p class="submenu">نقش ها و مجوزها</p>
                     </a>
                     <ul>
@@ -137,6 +186,7 @@
                 </li>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">toolbar</span>
                         <p class="submenu">صفحات</p>
                     </a>
                     <ul>
@@ -145,10 +195,10 @@
                                 <p class="submenu">پروفایل کاربر</p>
                             </a>
                             <ul>
-                                <li><a href="index.html">پروفایل</a></li>
-                                <li><a href="teams section/index.html">تیم ها</a></li>
-                                <li><a href="Projects section/index.html">پروژه ها</a></li>
-                                <li><a href="Connections section/index.html">اتصالات</a></li>
+                                <li><a href="../index.html">پروفایل</a></li>
+                                <li><a href="../teams section/index.html">تیم ها</a></li>
+                                <li><a href="../Projects section/index.html">پروژه ها</a></li>
+                                <li><a href="../Connections section/index.html">اتصالات</a></li>
                             </ul>
                         </li>
                         <li>
@@ -190,6 +240,7 @@
                 </li>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">person_check</span>
                         <p class="submenu">احراز هویت</p>
                     </a>
                     <ul>
@@ -253,6 +304,7 @@
 
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">list_alt</span>
                         <p class="submenu">نمونه های چند مرحله ای</p>
                     </a>
                     <ul>
@@ -261,12 +313,18 @@
                         <li><a href="#">ایجاد معامله</a></li>
                     </ul>
                 </li>
-                <li><a class="submenu" href="#">نمونه های مودال</a></li>
+                <li class="NOsubmenu">
+                    <a class="submenu" href="#">
+                        <span class="material-symbols-outlined">present_to_all</span>
+                        نمونه های مودال
+                    </a>
+                </li>
             </ul>
             <h6>اجزاء</h6>
             <ul>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">style</span>
                         <p class="submenu">کارت ها</p>
                     </a>
                     <ul>
@@ -279,6 +337,7 @@
                 </li>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">top_panel_open</span>
                         <p class="submenu">رابط کاربری</p>
                     </a>
                     <ul>
@@ -305,6 +364,7 @@
                 </li>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">stack</span>
                         <p class="submenu">رابط کاربری توسعه یافته</p>
                     </a>
                     <ul>
@@ -332,6 +392,7 @@
                 </li>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">family_star</span>
                         <p class="submenu">آیکن ها</p>
                     </a>
                     <ul>
@@ -344,6 +405,7 @@
             <ul>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">article</span>
                         <p class="submenu">المان های فرم</p>
                     </a>
                     <ul>
@@ -361,6 +423,7 @@
                 </li>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">article</span>
                         <p class="submenu">طرح های فرم</p>
                     </a>
                     <ul>
@@ -371,6 +434,7 @@
                 </li>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">amp_stories</span>
                         <p class="submenu">فرم مرحله ای</p>
                     </a>
                     <ul>
@@ -378,10 +442,21 @@
                         <li><a href="#">آیکن ها</a></li>
                     </ul>
                 </li>
-                <li><a href="#">اعتبارسنجی فرم</a></li>
-                <li><a href="#">جدول ها</a></li>
+                <li class="NOsubmenu">
+                    <a href="#">
+                        <span class="material-symbols-outlined">grading</span>
+                        اعتبارسنجی فرم
+                    </a>
+                </li>
+                <li class="NOsubmenu">
+                    <a href="#">
+                        <span class="material-symbols-outlined">table</span>
+                        جدول ها
+                    </a>
+                </li>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined"> grid_on</span>
                         <p class="submenu">جدول های داده</p>
                     </a>
                     <ul>
@@ -395,6 +470,7 @@
             <ul>
                 <li>
                     <a>
+                        <span class="material-symbols-outlined">bid_landscape</span>
                         <p class="submenu">نمودارها</p>
                     </a>
                     <ul>
@@ -402,12 +478,26 @@
                         <li><a href="#">نمودارهای ChartJS</a></li>
                     </ul>
                 </li>
-                <li><a href="#">نقشه های Leaflet</a></li>
+                <li class="NOsubmenu">
+                    <a href="#"><span class="material-symbols-outlined"> map</span>
+                        نقشه های Leaflet
+                    </a>
+                </li>
             </ul>
             <h6>متفرقه</h6>
             <ul>
-                <li><a href="#">پشتیبانی</a></li>
-                <li><a href="#">مستندات</a></li>
+                <li class="NOsubmenu">
+                    <a href="#">
+                        <span class="material-symbols-outlined">headset_mic</span>
+                        پشتیبانی
+                    </a>
+                </li>
+                <li class="NOsubmenu">
+                    <a href="#">
+                        <span class="material-symbols-outlined">description</span>
+                        مستندات
+                    </a>
+                </li>
             </ul>
         </div>
 
@@ -416,9 +506,77 @@
     <main>
         <div class="container">
 
-            <div class="Address-bar"></div>
-            <div class="Profile-cover"></div>
-            <div class="Menu-sections"></div>
+            <!-- Address-bar -->
+            <div class="Address-bar">
+                <h2>پروفایل کاربر /</h2>
+                <h2>پروژه ها</h2>
+            </div>
+
+            <!-- Profile-cover -->
+            <div class="Profile-cover">
+                <div class="banner"></div>
+
+                <div class="Profile">
+                    <div class="Profile-cantainer">
+                        <!-- 1 -->
+                        <div class="information">
+                            <img src="../image/1.png" alt="">
+                            <h3>جان اسنو</h3>
+                            <div>
+                                <span><i class="material-symbols-outlined">ink_pen</i>طراح ux</span>
+                                <span><i class="material-symbols-outlined">location_on</i>شهر تبریز</span>
+                                <span><i class="material-symbols-outlined">calendar_month</i>عضویت در فروردین
+                                    1400</span>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="box-button">
+                            <a href="#" class="button button-connected">
+                                <svg width="16" viewBox="0 0 16 16" fill="white">
+                                    <path
+                                        d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+                                    <path
+                                        d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z" />
+                                </svg>
+                                متصل
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Menu-sections -->
+            <div class="Menu-sections">
+                <a href="../index.html">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path
+                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                    </svg>
+                    <span>پروفایل</span>
+                </a>
+                <a href="../teams section/index.html">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path
+                            d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" />
+                    </svg>
+                    <span>تیم ها</span>
+                </a>
+                <a href="../Projects section/index.html" class="Menu-sections-button">
+                    <svg height="18" viewBox="0 -960 960 960" width="18" fill="currentColor">
+                        <path
+                            d="M120-520v-320h320v320H120Zm0 400v-320h320v320H120Zm400-400v-320h320v320H520Zm0 400v-320h320v320H520ZM200-600h160v-160H200v160Zm400 0h160v-160H600v160Zm0 400h160v-160H600v160Zm-400 0h160v-160H200v160Zm400-400Zm0 240Zm-240 0Zm0-240Z" />
+                    </svg>
+                    <span>پروژه ها</span>
+                </a>
+                <a href="../Connections section/index.html">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path
+                            d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z" />
+                    </svg>
+                    <span>اتصالات</span>
+                </a>
+            </div>
 
             <div class="container-cards">
 
@@ -441,12 +599,22 @@
 
 
         </div>
+
+        <!------------------------- footer ------------------------->
+        <div class="footer">
+            <div class="footer-right">
+                <p> طراحی شده با ❤️ ارائه شده در وب‌سایت<a> راست چین</a></p>
+            </div>
+
+            <div class="footer-left">
+                <a href="#">لایسنس</a>
+                <a href="#">قالب های بیشتر</a>
+                <a href="#">مستندات</a>
+                <a href="#">پشتیبانی</a>
+            </div>
+
+        </div>
     </main>
-    <!------------------------- footer ------------------------->
-    <footer>
-
-    </footer>
-
 </body>
 
 </html>

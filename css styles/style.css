@@ -50,6 +50,11 @@ ul {
     background-color: #5A8DEE;
     padding: 7px 25px;
     fill: white;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 1px 5px 2px #e3e4e4;
 }
 
 .button-connected * {
@@ -205,6 +210,8 @@ aside {
     flex-direction: column;
     border-left: 1px solid #d0d0d0;
     background-color: #F3F4F4;
+    padding-right: 12px;
+    box-sizing: border-box;
     z-index: 1000;
 }
 
@@ -227,18 +234,22 @@ aside .title-list a {
 aside .title-list span {
     margin: 0 5px 5px;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 27px;
     color: #5A8DEE;
 }
 
-aside .title-list input[type="radio"] {
-    display: inline-block;
-    cursor: pointer;
+aside .title-list::after {
+    content: "";
+    position: absolute;
+    left: 24px;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: #F3F4F4;
 }
 
 /* list */
 aside .list {
-    margin-right: 10px;
+    margin-right: 5px;
     overflow-y: scroll;
 }
 
@@ -271,7 +282,8 @@ aside .list:hover::-webkit-scrollbar-thumb {
 
 /* h6 */
 aside .list>h6 {
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 400;
     color: #a0a7b2;
     margin: 16px 0;
     margin-right: 16px;
@@ -287,7 +299,6 @@ aside .list ul li {
     align-items: right;
     flex-direction: column;
     justify-content: center;
-
     border-radius: 5px;
     transition: all 0.3s;
     height: 43px;
@@ -297,8 +308,13 @@ aside .list ul li {
 }
 
 aside .list>ul li:hover {
-    height: min-content;
+    height: max-content;
 }
+
+aside .list>ul li.NOsubmenu:hover {
+    height: 43px;
+}
+
 
 aside .list>ul>li {
     padding: 6px 0px;
@@ -336,10 +352,10 @@ aside .list>ul>li>ul>li:hover>ul {
 aside .list>ul>li a {
     height: 100%;
     width: 100%;
-    padding: 6px 10px 7px 15px;
+    padding: 8.5px 10px 8px 10px;
     box-sizing: border-box;
-    font-size: 13.6px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 500;
     color: #677788;
     display: flex;
     justify-content: right;
@@ -365,7 +381,7 @@ main {
 
 /*--------- Address-bar ----------*/
 main>.container>div.Address-bar {
-    padding: 30px;
+    padding: 25px 30px 30px;
     box-sizing: border-box;
 }
 
@@ -470,37 +486,63 @@ main div.Profile-cover>div.Profile .information>div>span>i {
 
 /* box-button */
 main>.container>div.Profile-cover>div.Profile .box-button {
-    height:50px;
+    height: 50px;
     margin: 15px 160px 0px 15px;
     padding-top: 2px;
     box-sizing: border-box;
     text-align: left;
 }
 
-
 /*--------- Menu-sections ---------*/
-.bottuns {
-    
-    margin: 0 auto;
-}
-.bottuns a{
-    padding: 10px 15px;
-    border-radius: 4px;
-    background-color: #5a8dee;; 
-    color: white;
-    text-decoration: none;
-    vertical-align: middle;
-    margin-left: -4px;
-}
-.bottuns a svg{
-    margin-left: 5px;
-   
+.Menu-sections {
+    display: flex;
+    padding: 25px 30px;
+    box-sizing: border-box;
+    margin: 0;
 }
 
-/*--------- container-cards ---------*/
+.Menu-sections a {
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #516377;
+}
+
+.Menu-sections a * {
+    vertical-align: middle;
+}
+
+.Menu-sections a svg {
+    margin-left: 5px;
+}
+
+a.Menu-sections-button {
+    color: white;
+    fill: white;
+    font-size: 16px;
+    background-color: #5A8DEE;
+    box-shadow: 0 1px 5px 2px #cecece;
+}
+
+/*--------- container-cards-profile ---------*/
+main div.container-cards-profile{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    padding:0 25px ;
+    box-sizing: border-box;
+}
 
 /*----- Main-box-1 -----*/
+main .Main-box-1 , .Main-box-2{
+    flex-grow: 1.5;
+    display:flex ;
+    flex-wrap: wrap;
+    margin: 8px;
+    height: max-content;
 
+<<<<<<< HEAD
 .box-1{
     width: 400px;
     margin: 0 auto;
@@ -552,6 +594,13 @@ main>.container>div.Profile-cover>div.Profile .box-button {
     vertical-align: middle;
    
 }
+=======
+    
+}
+/* About-card */
+
+/* Overview-card */
+>>>>>>> 851f9e62d2c76b5e1709671f61ccf35e477713e6
 
 .main-box-1 a *{
     vertical-align: middle;
@@ -570,7 +619,9 @@ main>.container>div.Profile-cover>div.Profile .box-button {
     width: 30px;
 }
 /*----- Main-box-2 -----*/
-
+.Main-box-2{
+    flex-grow: 2.8;
+}
 /* ActivityTimeline-card */
 
 /* connections-card */

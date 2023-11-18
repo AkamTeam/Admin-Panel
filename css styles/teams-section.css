@@ -1,11 +1,5 @@
 /*-------------------- Original styles --------------------*/
 
-img {
-    border-radius: 50%;
-    width: 32px;
-    border: 2px solid #fff;
-}
-
 /*--------------------- General class ----------------------*/
 
 
@@ -17,25 +11,30 @@ img {
 
 
 /*--------- container-cards ---------*/
-.container-cards{
+.container-cards {
     width: 100%;
-    margin: auto;
-    padding: 20px;
+    padding:0 20px;
     box-sizing: border-box;
 }
+
+.container-cards img {
+    border-radius: 50%;
+    width: 32px;
+    border: 2px solid #fff;
+}
+
 /*--------- Teams-Section ------*/
 
 .main-team {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .box-item {
     position: relative;
     width: 320px;
     flex-grow: 1;
-    height:max-content;
+    height: max-content;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 2px 14px rgba(38, 60, 85, 0.16);

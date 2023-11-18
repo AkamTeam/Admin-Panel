@@ -1,17 +1,18 @@
 /*-------------------- Original styles --------------------*/
 
-img {
-    border-radius: 50%;
-    width: 95px;
-}
-
 /*--------------------- General class ----------------------*/
 .container-cards {
+    height: max-content;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding: 16px;
     box-sizing: border-box;
+}
+
+.container-cards img {
+    border-radius: 50%;
+    width: 95px;
 }
 
 .button {
@@ -33,7 +34,7 @@ img {
     cursor: pointer;
 }
 
-.label-figma ,
+.label-figma,
 .label-analyze {
     color: #748AA2;
     background-color: #E7EBEF;
@@ -141,11 +142,13 @@ main .container-cards>div.items>.item-bottom a.button * {
 
 main .container-cards>div.items>.item-bottom a.connected {
     background-color: #5A8DEE;
+    fill: white;
     padding: 6px 20px;
 }
 
 main .container-cards>div.items>.item-bottom a.NOconnected {
     color: #5F91EF;
+    fill: #5F91EF;
     background-color: #E5EDFC;
     padding: 6px 20px;
 }
