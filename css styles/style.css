@@ -524,16 +524,34 @@ a.Menu-sections-button {
     box-shadow: 0 1px 5px 2px #cecece;
 }
 
-/*--------- container-cards ---------*/
+/*--------- container-cards-profile ---------*/
+main div.container-cards-profile{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    padding:0 25px ;
+    box-sizing: border-box;
+}
 
 /*----- Main-box-1 -----*/
+main .Main-box-1 , .Main-box-2{
+    flex-grow: 1.5;
+    display:flex ;
+    flex-wrap: wrap;
+    margin: 8px;
+    height: max-content;
 
+    
+}
 /* About-card */
 
 /* Overview-card */
 
 /*----- Main-box-2 -----*/
-
+.Main-box-2{
+    flex-grow: 2.8;
+}
 /* ActivityTimeline-card */
 
 /* connections-card */
