@@ -371,9 +371,7 @@ aside .list>ul>li a>p {
 }
 
 /*------------------------- main --------------------------*/
-.container{
-    height: 1700px;
-}
+
 main {
     position: absolute;
     right: 263px;
@@ -552,7 +550,7 @@ main .Main-box-1 , .Main-box-2{
     margin-left: 600px;
     height: 560px;
     background-color:white;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 .main-box-2{
     width: 24%;
@@ -620,7 +618,7 @@ main .Main-box-1 , .Main-box-2{
 
 /* Overview-card */
 .Overview-card .box-2{
-    border-radius: 10px;
+    border-radius: 4px;
     width: 78%;
 }
 .Main-box-2{
@@ -641,15 +639,15 @@ img{
 
 .box-item3{
     position: relative;
-    width: 575px;
+    width: 585px;
     height: 599.844px;
     background-color:#ffffff ;
     border-radius: 5px;
     box-shadow: 0 2px 14px rgba(38, 60, 85, 0.16);
     flex: 0 auto;
     margin-top: -558px;
-    margin-right: 365px;
-    border-radius: 10px;
+    margin-right: 366px;
+    border-radius:5px;
 }
 .box-body{
     padding:20px ;
@@ -751,12 +749,12 @@ img{
     width: 370px;
     height: 576px;
     background-color:#ffffff ;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 0 2px 14px rgba(38, 60, 85, 0.16);
     flex: 0 auto;
-   margin-top: -104%;
-   margin-right: 60%;
-    border-radius: 10px;
+   margin-top:3%;
+   margin-right: 63%;
+    border-radius:4px;
 }
 
 .connections-box{
@@ -881,8 +879,8 @@ img{
     box-shadow: 0 2px 14px rgba(38, 60, 85, 0.16);
     flex: 0 auto;
     margin: 30px;
-    margin-top: -57%;
-    border-radius: 10px;
+    margin-top: -59%;
+    border-radius: 4px;
     margin-right: 305px;
     
 }
@@ -908,9 +906,195 @@ img{
    text-align: center;
    
 }
+/* projects-card */
+.project-main{
+    position: relative;
+    width: 665px;
+    height: 900px;
+    background-color:#fffdfd ;
+    border-radius: 5px;
+    box-shadow: 0 2px 14px rgba(38, 60, 85, 0.16);
+    flex: 0 auto;
+  margin-right: 30%;
+  margin-top: 13%;
+}
+.text-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.text-box input {
+    height: 38px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    left: 1.5rem;
+    right: auto;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.text-box>h3{
+    font-family: inherit;
+    color: rgb(103, 119, 136);
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 3px;
+}
+.text-box>h6{
+    font-family: inherit;
+    color: rgb(103, 119, 136);
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 38px;
+    margin-right: 349px;
+    margin-left: 3px;
+}
+.lable{
+    width: 160px;
+    height: 43px;
+    text-align: right;
+    border: 1px solid rgb(182, 180, 180);
+    border-radius: 4px;
+    font-size:medium;
+}
+.icon4 span{
+    margin-right: 40px;
+}
+.project-main-2{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    height: 4%;
+}
+.project-main-3{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    width: 100%;
+    height: 9%;
+}
+.img-icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+.item4{
+    margin-right: 12px;
+}
+.project-checkbox{
+    margin-right: 11px;
+}
+.name-2{
+    margin-right: 49px;
+}
+.item2{
+    margin-right: 30px;
+}
+.item1{
+    margin-right: 220px;
+    width: 180px;
+}
+
+.item1 img{
+    margin-right: -60px;
+    width: 104px;
+    height: 25px;
+}
+.item4 input{
+    margin-right: 10px;
+}
+
+.image-item3 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+.name-2{
+    width: 171px;
+    display: flex;
+    align-items: center;
+}
+.item3{
+    width: 89px;
+}
+.item3 h5{
+    color: rgb(103, 119, 136);
+    margin: 0 0 0 0;
+}
+.item3 span{
+    color: rgb(103, 119, 136);
+    padding-left: 15px;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.item-text span{
+    color: rgb(103, 119, 136);
+}
+.item2{
+    display: flex;
+  
+}
+.item-image img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.img-4{
+    margin-right: 80px;
+    }
+    .img-3{
+        margin-right: 60px;
+        }
+        .img-2{
+            margin-right: 40px;
+            }
+            .img-1{
+                margin-right: 20px;
+                }
+
+.project-footer{
+    display: flex;
+    flex-direction: row;
+}
+.project-footertext{
+    padding-top: 18px;
+    padding-right: 32px;
+    color: gray;
+}
+.project-footerbottom{
+    margin-right: 43%;
+   padding-top: 10px;
+}
+.project-footerbottom input{
+    width:40px;
+    height: 40px;
+    border: none;
+    font-size: 19px;
+    color: rgb(165, 165, 165);
+    border-radius: 5px;
+}
+.value{
+    color: white;
+    background-color: #5a8dee;
+}
+
+
+
+
+
+
+
+
 /* teams-card */
 
-/* projects-card */
 img{
     border-radius: 50%;
     width: 40px;
@@ -921,14 +1105,14 @@ img{
 
 .box-item3{
     position: relative;
-    width: 614.328px;
+    width: 620.328px;
     height: 599.844px;
     background-color:#ffffff ;
     border-radius: 5px;
     box-shadow: 0 2px 14px rgba(38, 60, 85, 0.16);
     flex: 0 auto;
   margin-top: -566px;
-    margin-right: 400px;
+    margin-right: 350px;
 }
 .box-body{
     padding:22px ;
@@ -1023,10 +1207,13 @@ img{
         cursor: pointer;
         margin-right: 25px;
     }
+/*  */
+
+
 /*------------------------- footer -------------------------*/
 
 .footer {
-   margin-top: 1700px;
+   margin-top: 80px;
     left: 0;
     right: 0;
     display: flex;
