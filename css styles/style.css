@@ -544,18 +544,18 @@ main .Main-box-1 , .Main-box-2{
     flex-wrap: wrap;
     margin: 8px;
     height: max-content;
-
-    
+ 
 }
 
 .box-1{
-    width: 380px;
+    width: 340px;
     margin-left: 600px;
     height: 560px;
     background-color:white;
+    border-radius: 10px;
 }
 .main-box-2{
-    width: 26%;
+    width: 24%;
     margin: 0 auto;
 }
 .p{
@@ -619,8 +619,13 @@ main .Main-box-1 , .Main-box-2{
 
 
 /* Overview-card */
-
+.Overview-card .box-2{
+    border-radius: 10px;
+    width: 78%;
+}
 .Main-box-2{
+ 
+    border-radius: 20px;
     flex-grow: 2.8;
 }
 
@@ -643,7 +648,8 @@ img{
     box-shadow: 0 2px 14px rgba(38, 60, 85, 0.16);
     flex: 0 auto;
     margin-top: -558px;
-    margin-right: 420px;
+    margin-right: 365px;
+    border-radius: 10px;
 }
 .box-body{
     padding:20px ;
@@ -719,7 +725,8 @@ img{
     font-size: 1rem;
     font-weight: 1000;
     display: inline-block;
-    float: left;
+  
+
     }
     .img-main-text3{
         width: 20px;
@@ -739,7 +746,168 @@ img{
         margin-right: 25px;
     }
 /* connections-card */
+.connections-left{
+    position: relative;
+    width: 370px;
+    height: 576px;
+    background-color:#ffffff ;
+    border-radius: 5px;
+    box-shadow: 0 2px 14px rgba(38, 60, 85, 0.16);
+    flex: 0 auto;
+   margin-top: -104%;
+   margin-right: 60%;
+    border-radius: 10px;
+}
 
+.connections-box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.connections-box svg {
+    left: 1.5rem;
+    right: auto;
+    margin-left: 20px;
+}
+.connections-box>h5{
+    font-family: inherit;
+    color: rgb(103, 119, 136);
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 35px;
+}
+.connections-main{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.detalis-connections{
+    margin-right: 15px;
+    margin-top: 19px;
+    text-align: right;
+   width: 190%;
+   color: #516377;
+   
+}
+.detalis-connections>p{
+    color: #9a9898;
+    font-size: 0.75rem;
+    
+}
+.icon img{
+    width: 50px;
+    border-radius: 50%;
+     margin-right: 14px;
+}
+.controbuter{
+     width: 100%;
+     margin-left: 9px;
+     
+ 
+}
+.controbuter a{
+    margin-left: 0;
+    border-radius: 3px;
+    padding: 3px;
+}
+.detalis-connections>h6 , .detalis-connections>h5{
+    font-size: 0.9rem;
+    margin: 0;
+    
+}
+.text-box1{
+    text-decoration: none;
+    color: #ff0000;
+    background-color:rgb(255, 195, 205) ;
+    padding:2px 6px;
+    font-size: 0.813em;
+}
+.text-box2{
+    text-decoration: none;
+    color: #5a8dee;
+    margin-left:20px ;
+    background-color:#e5edfc ;
+    padding:2px 6px;
+    font-size: 0.813em;
+}
+.text-box3{
+    text-decoration: none;
+    color: #00cfdd ;
+    background-color: white ;
+    margin-left:20px ;
+    padding:2px 6px;
+    font-size: 0.813em;
+}
+.text-box4{
+    text-decoration: none;
+    color: #ff0000;
+    background-color:rgb(255, 195, 205) ;
+    margin-left:20px ;
+    padding:2px 6px;
+    font-size: 0.813em;
+}
+
+.text-box5{
+    text-decoration: none;
+    color: #5a8dee;
+    margin-left:20px ;
+    background-color:#e5edfc ;
+    padding:2px 6px;
+    font-size: 0.813em;
+}
+
+/* -------footer-left---------- */
+.footer-text{
+     text-align: center;
+     cursor: pointer
+}
+.footer-text a{
+    margin-top: -1007%;
+    margin-right: 110px;
+    color: #5a8dee;
+    text-decoration: none;
+    text-align: center;
+}
+/* --------item-right------------- */
+.connections-right{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    background-color:#ffffff ;
+    border-radius: 5px;
+    box-shadow: 0 2px 14px rgba(38, 60, 85, 0.16);
+    flex: 0 auto;
+    margin: 30px;
+    margin-top: -57%;
+    border-radius: 10px;
+    margin-right: 305px;
+    
+}
+.icon1-connections img{
+    width: 30px;
+    margin-left: 14px;
+    border-radius: 5px;
+}
+.icon3-connections img{
+    width: 40px;
+    border-radius: 50%;
+      margin-right: 14px;
+}
+/* -------footer-right--------- */
+.footer-connections{
+    text-align: center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.footer-connections a{
+   color: #5a8dee;
+   text-decoration: none;
+   text-align: center;
+   
+}
 /* teams-card */
 
 /* projects-card */
